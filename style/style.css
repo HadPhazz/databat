@@ -1,0 +1,52 @@
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+#databat
+{
+	font-family: 'Quicksand';
+	color : #fbfbfb;
+}
+
+a, p
+{
+	text-decoration: none;
+	color : #fbfbfb;
+}
+
+#img_div, #help_div{
+	display: none;
+}
+
+#bat
+{
+	width: 75px;
+}
+
+#gmn
+{
+	width: 150px;
+}
+
+.blackInput
+{
+	background-color: transparent;
+	color : #fbfbfb;
+}
+
+.inputLabel, label
+{
+	color : #fbfbfb;
+}
+
+hr {
+	border-top: 5px dotted #fbfbfb;
+}
+
+.form-control:focus, .form-select:focus
+{
+	border-color: #ffc107;
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
